@@ -1,0 +1,5 @@
+export const APPLY_REQUEST ='APPLY_REQUEST'
+export const APPLY_SUCCESS ='APPLY_SUCCESS'
+export const APPLY_FAIL ='APPLY_FAIL'
+
+export const CLEAR_ERRORS ='CLEAR_ERRORS'

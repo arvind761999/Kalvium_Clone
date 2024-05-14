@@ -1,0 +1,205 @@
+/* Common styles for all screen sizes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-sg {
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-sg {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    padding: 5px;
+    margin-left: 15vh;
+    align-items: center;
+}
+
+.navbar-sg .logo {
+    margin-right: 30px;
+    background-color: rgb(211, 205, 227);
+    padding: 2px 8px 1px 8px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgb(126, 51, 125);
+}
+
+.navbar-sg .logo-name {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 12px;
+}
+
+.content-sg {
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.content-sg .discription {
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.careers-section {
+    padding: 2rem 0;
+    padding-right: 162px;
+    display: flex;
+    padding-left: 124px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.careers-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.careers-section .search-form input {
+    padding: 9px;
+    border: 2px solid #00000042;
+    width: 43vh;
+    margin-top: 14px;
+    border-radius: 3px;
+}
+
+.search-here {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searching-sec {
+    position: relative;
+    left: 8%;
+    right: 50%;
+    /* margin-left: 21vh; */
+    /* margin-right: 3vh; */
+}
+
+.searching-sec h2 {
+    font-size: 15px;
+   
+    margin-top: 21px;
+}
+
+.searching-sec select {
+    padding: 10px;
+    margin-top: 15px;
+    width: 43vh;
+    border: 2px solid #00000042;
+}
+
+.job-container {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.job-id {
+    padding: 5px;
+    width: 17vh;
+    background-color: #aea3a370;
+    border-radius: 10px;
+}
+
+.view-button {
+    padding: 8px 46px;
+    background: rgb(10, 187, 135);
+    border-color: rgb(10, 187, 135);
+    color: rgb(255, 255, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background: rgb(10, 187, 135);
+}
+
+.footer-sg {
+    margin-top: 50px;
+    background-color: rgb(204, 204, 230);
+}
+
+.footer-content {
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-content h5 {
+    color: #706565;
+}
+
+.footer-content h1 {
+    color: rgb(121, 64, 121);
+    cursor: pointer;
+}
+
+.footer-content h1:hover {
+    color: rgb(210, 105, 210);
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .navbar-sg {
+        margin-left: 5%;
+    }
+    .content-sg {
+        width: 90%;
+    }
+    .search-here {
+        flex-direction: column;
+    }
+    .searching-sec {
+        margin: 1rem auto;
+    }
+    .searching-sec select {
+        width: 100%;
+    }
+    .job-container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .job-details,
+    .location-details {
+        margin: 1rem 0;
+    }
+    .careers-section{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-sg {
+        margin-left: 2%;
+    }
+    .content-sg {
+        width: 95%;
+    }
+    .job-id{
+        width: 17vh;
+    }
+}
+@media  screen and (max-width: 1100px) {
+    .search-here{
+        flex-direction: column;
+    }
+    
+}
+

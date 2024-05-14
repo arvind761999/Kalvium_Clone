@@ -1,0 +1,15 @@
+.squarelogo{
+    color: #5d78ff;
+    border-radius: 2px;
+    height: 80px;
+    width: 80px;
+    background: rgba(93,120,255,.1);
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    
+}
+.formnav{
+    box-shadow:  0 5px 15px rgba(82,63,105,.051);
+    padding-left: 200px;
+}

@@ -1,0 +1,366 @@
+
+/* CSS */
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #5a4479;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+/* button css end */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.gr {
+  border-bottom: black 2px;
+}
+
+@media (max-width:400px) {
+  .background {
+    height: 529px;
+
+  }
+}
+
+.h1 {
+  font-weight: bolder;
+}
+
+.card1 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: #494849;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  max-width: 1300px;
+  height: 253px;
+  position: absolute;
+  left: 12%;
+  right: 12%;
+  top: 550px;
+  box-shadow: 8px 8px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+@media  only screen and (max-width: 1550px) and (min-width: 900px) {
+  .card1 {
+    height: 250px;
+    /* font-size: 16px; */
+  }
+  .card1 img{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media  only screen and (max-width: 900px) and (min-width: 772px) {
+  .card1 {
+    
+    height: 370px;
+    margin: -19px 0;
+  }
+  .card1 img{
+    width: 30px;
+    height: 30px;
+  }
+  
+}
+@media  only screen and (max-width: 772px) and (min-width: 200px) {
+    .card1 {
+      position: relative;
+      left: 0px;
+      top: 194px;
+      height: 470px;
+      margin: -19px 0;
+  
+    }
+  .card1 img{
+    width: 30px;
+    height: 30px;
+  }
+  
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #6e5a8a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  /* Shadow effect */
+  transition: box-shadow 0.3s ease-out;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Background shadow color */
+  transition: top 0.3s ease-out;
+  z-index: -1;
+}
+
+.button:hover::before {
+  top: 0;
+  /* Move the background shadow up on hover */
+}
+
+
+
+
+/* program */
+@media only screen and (max-width: 1280px) and (min-width: 745px) {
+  .font {
+    font-size: 16px;
+    margin: -10px 0px
+  }
+
+
+}
+
+
+/* academic */
+
+.academic1 {
+  background: #fefbf6;
+  height: 350px;
+  position: relative;
+  top: -59px;
+}
+
+.academic {
+
+  width: 75%;
+
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 750px) {
+  .academic1 {
+    background: #fefbf6;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 200px) {
+  .academic1 {
+    background: #fefbf6;
+    height: 180px;
+  }
+}
+
+
+
+
+/* slider start */
+
+.slider1 {
+  background: rgb(254, 251, 246);
+  height: 500px;
+  position: relative;
+  top: -135px;
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  top: -69%;
+  right: -516%;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  top: -69%;
+  left: -19%;
+}
+
+.slider-text {
+  padding: 0 111px;
+  ;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 750px) {
+  .slider {
+    background: rgb(254, 251, 246);
+    height: 390px
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    top: -60%;
+    right: -485%;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    top: -60%;
+    left: -19%;
+  }
+}
+
+
+@media only screen and (max-width: 750px) and (min-width: 200px) {
+  .slider {
+    background: rgb(254, 251, 246);
+    height: 320px;
+  }
+
+  .slider-text {
+    padding: 0 0px;
+  }
+
+  .carousel-control-prev-icon {
+    position: relative;
+    top: 9%;
+    right: 36%;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    top: 9%;
+    left: 36%;
+  }
+}
+
+/* map start */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.card {
+  border: 2px solid black;
+  height: 550px;
+}
+
+.card-body {
+  text-align: justify;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.tution {
+  background-color: #fdebeb;
+  height: 250px;
+
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 750px) {
+  .academic1 {
+    background: #fefbf6;
+    height: 250px;
+  }
+
+  .tution {
+    /* background-color: #fdebeb; */
+    height: 350px;
+  }
+
+  .card-body {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 200px) {
+  .card-text {
+    font-size: 16px;
+  }
+
+  .tution {
+    /* background-color: #fdebeb; */
+    height: 460px;
+  }
+}
+
+/* map end*  */
+
+
+/* campus diaries */
+
+.text-purple {
+  border: 2px rgb(11, 5, 32) solid;
+  background-color: aliceblue;
+  color: rgb(11, 5, 32);
+}
+
+.image-hover {
+  transition: transform 0.2s;
+  /* Add smooth transition effect */
+}
+
+.image-hover:hover {
+  transform: scale(1.1);
+  /* Scale the image slightly on hover */
+}
+
+/* campus diaries end*/
+
+

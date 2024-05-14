@@ -1,0 +1,35 @@
+.about-icon{
+  background: #0095ff;
+  color: white;
+  font-size: 21px;
+  position: relative;
+  left: 170px;
+  padding: 3px;
+}
+
+.about-hr{
+  color: black !important;
+  background: 2px solid black !important;
+}
+
+.our-team .card{
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: #494848b0;
+  cursor: pointer;
+  border: 3px solid;
+  box-shadow: none;
+  transition: all .5s ease-out;
+  /* box-shadow: 8px 8px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.our-team .card:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}

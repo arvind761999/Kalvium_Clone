@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container-viewap{
+    /* border: 2px solid red; */
+    /* height: 40px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  
+   
+}
+.inner-container-view{
+    /* border: 2px solid rgb(30, 29, 29); */
+    padding: 10px;
+    height: 40vh;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
+    
+}
+.view-logo{
+    padding: 41px;
+    height: 5px;
+    width: 5px;
+    
+}
+.view-logo span{
+    background-color: #aecae1;
+    padding: 22px;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: purple;
+
+}
+.hrbp-view{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    margin-top: 13px;
+    margin-left: 32px;
+}
+.hrbp-view .hrbp{
+    margin-right: 15px;
+    
+}
+.hrbp{
+    margin-top: 4px;
+}
+.hrbp-view .job-id{
+    background-color: rgb(234, 226, 226);
+    border-radius: 22px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.view-description{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+.view-description .view-button{
+    float: inline-end;
+}
+.more-job-details {
+    display: flex;
+    flex-direction: row;
+    margin-top: -19px;
+    margin-left: 29px;
+}
+.more-job-details-child{
+    display: flex;
+    flex-direction: row;
+}
+.more-job-details span{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+}
+.more-job-details span i{
+    margin-top: 17px;
+    margin-right: 6px;
+    color: rgb(117, 110, 110);
+}
+.more-job-details span p{
+    color: rgb(117, 110, 110);
+    margin-top: 16px;
+}
+.more-job-details-name{
+    margin-left: 23px;
+    margin-right: 24px;
+}
+.more-job-details-location{
+    margin-right: 24px;
+}
+.more-job-details-button{
+    margin-right: 10vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-left: 34%;
+    
+}
+.more-job-details-button button{
+    padding: 10px;
+    justify-content: end;
+   
+}
+.more-job-details-button .apply{
+    width: 97px;
+}
+.see.all.jobs
+{
+    width: 160px;
+    font-family: monospace;
+    padding: 12px;
+    font-weight: 700;
+    background-color: #eaeaf1;
+    border: 1px solid black;
+}
+
+.career-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 500%;
+   
+}
+
+.inner-career-content {
+    /* border: 2px solid black; */
+    position: relative;
+    left: 4%;
+    width: 65%;
+    height: 100%;
+}
+.auto-fill-resume {
+    display: inline-block; /* Display the icon and paragraph in a single line */
+}
+
+.auto-fill-resume i,
+.auto-fill-resume p {
+    display: inline-block; /* Ensure both icon and paragraph are inline */
+    vertical-align: middle; /* Align vertically within the line */
+    margin: 0; /* Remove default margin */
+}
+.auto-fill-resume i{
+    margin-right: 8px;
+}
+.autofill-content-text span{
+    color: rgb(95, 85, 85);
+    font-size: small;
+}
+.autofill-content.dragover {
+    border-color: #aaa;
+}
+.autofill-content {
+    background-color: #f0f0f0;
+    border: 2px dashed #ccc;
+    padding: 49px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative; /* Needed for absolute positioning */
+    width: 87%;
+    
+}
+
+.autofill-content span {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px; /* Add some space below the text */
+}
+
+.autofill-content input[type="file"] {
+    display: none; /* Hide the file input */
+}
+
+.browse-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.browse-btn:hover {
+    background-color: #0056b3;
+}
+
+.autofill-content.dragover {
+    border-color: #aaa;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 5 columns */
+    grid-template-rows: repeat(5, auto); /* 2 rows */
+    gap: 10px; /* Gap between grid items */
+    margin-top: 20px; /* Margin from the resume box */
+}
+
+.grid-item {
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid-item .content-wrapper {
+    display: flex;
+   
+    /* align-items: center; Align items horizontally in the center */
+}
+
+.grid-item .content-wrapper input[type="text"] {
+    margin-top: 5px; /* Adjust spacing between span and input */
+}
+.grid-item input{
+    width: 70%;
+    padding:11px;
+    margin-top: 7px;
+}
+.contact-input {
+    position: relative;
+}
+.contact-input .country-code{
+    margin-top: 3px;
+}
+.contact-input .country-code select{
+    height: 21px;
+}
+.country-code {
+    position: absolute;
+    top: 50%;
+    left: 5px; /* Adjust as needed */
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+
+.contact-input input[type="text"] {
+    padding-left: 30px; /* Adjust as needed */
+}
+.mail-icon{
+    position: relative;
+}
+.mail-icon .icon{
+    margin-top: 29px;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 5px; /* Adjust as needed */
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+.location .location-input{
+    width: 86%;
+}
+.gender-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio-buttons input[type="radio"] {
+    margin-left: 5px;
+    width: 14px;
+}
+
+.radio-buttons label {
+    margin-right: 10px;
+}
+.grid-item .gender{
+   
+    margin-top: -4px;
+}
+
+.radio-buttons input{
+    margin-right: 10px;
+}
+.radio-buttons label{
+    margin-right: 62px;
+    margin-top: 4px;
+}
+.dropzone input{
+    /* display: contents; */
+    border: dashed;
+}
+.main-grid{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-sg {
+    margin-top: 50px;
+    background-color: rgb(204, 204, 230);
+}
+
+.footer-content {
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-content h5 {
+    color: #706565;
+}
+
+.footer-content h1 {
+    color: rgb(121, 64, 121);
+    cursor: pointer;
+}
+
+.footer-content h1:hover {
+    color: rgb(210, 105, 210);
+}

@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#stay-vigilant{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+   
+    
+}
+
+
+.stay-navbar{
+    width: 100%;
+    height: 102.162px;
+    /* border: 2px solid red; */
+    text-align: center;
+   position: sticky;
+   top: 0%;
+   background-color: white;
+   z-index: 1000;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+.logo-of-kalvium{
+    width: 160px;
+    height: 100px;
+   /* margin-top: -12px; */
+   
+}
+
+
+.stay-container{
+    width: 100%;
+    height: 100%;
+    background: url('../../assets//Grid-e.svg');
+    background-color: rgb(250, 250, 250);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  /* border: 2px solid blue; */
+  
+}
+
+
+
+.stay-wrapper{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(0, 255, 34); */
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.fraud-alert-img{
+    width: 400px;
+    height: 400px;
+    /* margin-left: -74px; */
+    /* mix-blend-mode: darken; */
+    /* border: 2px solid grey; */
+  
+}
+
+
+.stay-text-container{
+    width: 900px;
+    height: 700px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap; 
+
+    margin-bottom: 100px;
+     /* margin-left: 23px; */
+}
+
+.heading-stay{
+    margin-top: 120px;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.heading-stay h1{
+    color:  #191919;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.recently{
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+
+
+.recently p{
+    font-size: 17px;
+    color: #191919;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.here{
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+
+.here p{
+    font-size: 16px;
+    color: #191919;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.kalvium-points{
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 23px;
+    padding-left: 23px;
+    font-size: 16px;
+    
+   
+}
+
+
+.kalvium-points p{
+    font-size: 16px;
+    color: #191919;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 12px;
+}
+
+
+.if-you{
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+
+.if-you p{
+    font-size: 18px;
+    color: #191919;
+}
+
+
+.srikanth{
+    text-decoration: none; 
+    color: #575757;
+}
+
+
+.srikanth:hover{
+    color:  red;
+}
+
+
+.thank-you{
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.thank-you p{
+    font-size: 17px;
+    color: #191919;
+}
+
+
+.stay-wrapper .str1{
+    margin-top: -408px;
+    mix-blend-mode: darken;
+}
+
+.stay-text-container{
+    position: relative;
+}
+
+
+ .zic-zack-11{
+    width: 35px;
+    height: 30px;
+    mix-blend-mode: darken;
+    margin-left: 1300px;
+    margin-top: -500px;
+    position: absolute;
+
+}
+
+.tri1{
+    width:30px ;
+    height: 27px;
+    mix-blend-mode: darken;
+}
+
+/* footer */
+
+.stay-vigilant-footer{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid red; */
+    background-color: #191919;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-top: 23px; */
+}
+
+
+.footer-element{
+    width: 500px;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 19px;
+    
+}
+
+
+
+.footer-element{
+    padding-left: 73px;
+}
+
+
+.footer-element{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* responsive */
+
+@media (min-width:300px) and (max-width:500px){
+    .stay-navbar .logo-of-kalvium{
+       display: flex;
+     /* align-items: start; */
+       margin-left: 12px;
+    }
+
+    .stay-wrapper .str1{
+        margin-top: -120px;
+        mix-blend-mode: darken;
+    }
+
+    
+.footer-element{
+    width: 300px;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 25px;
+    font-size: 11px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+    
+ .zic-zack-11{
+    width: 35px;
+    height: 30px;
+    mix-blend-mode: darken;
+    margin-left: 280px;
+    margin-top: -500px;
+    position: absolute;
+
+}
+    .stay-img .fraud-alert-img{
+        margin-left: -43px;
+        width: 200px;
+        height: 200px;
+    }
+    .heading-stay{
+        margin-left: 11px;
+    }
+
+    .recently{
+        margin-left: 11px;
+    }
+
+    .here{
+        margin-left: 11px;
+    }
+
+    .kalvium-points{
+        margin-left: 11px;
+    }
+
+    .stay-text-container{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*  */
+
+
+
+@media (min-width:501px) and (max-width:700px){
+    .stay-navbar .logo-of-kalvium{
+       display: flex;
+     /* align-items: start; */
+       margin-left: 20px;
+    }
+
+    .stay-wrapper .str1{
+        margin-top: -150px;
+        mix-blend-mode: darken;
+    }
+
+    .zic-zack-11{
+        width: 35px;
+        height: 30px;
+        mix-blend-mode: darken;
+        margin-left: 280px;
+        margin-top: -500px;
+        position: absolute;
+    
+    }
+    .stay-img .fraud-alert-img{
+        width: 250px;
+        margin-left: -43px;
+        height: 250px;
+    }
+    .heading-stay{
+        margin-left: 22px;
+    }
+
+    .recently{
+        margin-left: 22px;
+    }
+
+    .here{
+        margin-left: 22px;
+    }
+
+    .kalvium-points{
+        margin-left: 22px;
+    }
+
+    .stay-text-container{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*  */
+
+
+@media (min-width:701px) and (max-width:800px){
+    .stay-navbar .logo-of-kalvium{
+       display: flex;
+     /* align-items: start; */
+       margin-left: 20px;
+    }
+
+    .stay-wrapper .str1{
+        margin-top: -230px;
+        mix-blend-mode: darken;
+    }
+
+    .zic-zack-11{
+        width: 35px;
+        height: 30px;
+        mix-blend-mode: darken;
+        margin-left: 480px;
+        margin-top: -300px;
+        position: absolute;
+    
+    }
+    .stay-img .fraud-alert-img{
+        width: 350px;
+        height: 350px;
+        margin-left: -43px;
+    }
+    .heading-stay{
+        margin-left: 22px;
+    }
+
+    .recently{
+        margin-left: 22px;
+    }
+
+    .here{
+        margin-left: 22px;
+    }
+
+    .kalvium-points{
+        margin-left: 22px;
+    }
+
+    .stay-text-container{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*  */
+
+
+
+@media (min-width:801px) and (max-width:1000px){
+
+    .stay-img .fraud-alert-img{
+        width: 400px;
+        height: 400px;
+        margin-left: -43px;
+    }
+
+    .stay-wrapper .str1{
+        margin-top: -260px;
+        mix-blend-mode: darken;
+    }
+
+    .zic-zack-11{
+        width: 35px;
+        height: 30px;
+        mix-blend-mode: darken;
+        margin-left: 520px;
+        margin-top: -200px;
+        position: absolute;
+    
+    }
+    .heading-stay{
+        margin-left: 22px;
+    }
+
+    .recently{
+        margin-left: 22px;
+    }
+
+    .here{
+        margin-left: 22px;
+    }
+
+    .kalvium-points{
+        margin-left: 22px;
+    }
+
+    .stay-text-container{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/*  */
+
+
+
+
+@media (min-width:1001px) and (max-width:1345px){
+   
+    .stay-img .fraud-alert-img{
+        width: 500px;
+        height: 500px;
+    }
+    .zic-zack-11{
+        width: 35px;
+        height: 30px;
+        mix-blend-mode: darken;
+        margin-left: 520px;
+        margin-top: -100px;
+        position: absolute;
+    
+    }
+    .heading-stay{
+        margin-left: 52px;
+    }
+
+    .recently{
+        margin-left: 52px;
+    }
+
+    .here{
+        margin-left: 52px;
+    }
+
+    .kalvium-points{
+        margin-left: 52px;
+    }
+
+    .stay-text-container{
+        width: 100%;
+        height: auto;
+    }
+
+
+    
+    
+}
